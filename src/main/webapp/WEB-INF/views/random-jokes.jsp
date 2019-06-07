@@ -11,6 +11,11 @@
 </head>
 <body>
 	<div class="container">
+	<div class="jumbotron">
+	
+		<h1>Chuck Norris Jokes</h1>
+		<a class="btn btn-primary" href="joke-selection">More Jokes?</a>
+	</div>
 		<table class="table">
 			<thead>
 				<tr>
@@ -29,7 +34,7 @@
 				</c:forEach>
 			</tbody>
 		</table>
-		<a class="btn btn-primary" href="joke-selection">More Jokes?</a>
+		
 	</div>
 </body>
 </html>
